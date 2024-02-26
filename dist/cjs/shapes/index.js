@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.emptyShape = void 0;
+const tslib_1 = require("tslib");
+tslib_1.__exportStar(require("./brows"), exports);
+tslib_1.__exportStar(require("./ears"), exports);
+tslib_1.__exportStar(require("./eyes"), exports);
+tslib_1.__exportStar(require("./faces"), exports);
+tslib_1.__exportStar(require("./hairs"), exports);
+tslib_1.__exportStar(require("./muzzles"), exports);
+tslib_1.__exportStar(require("./patterns"), exports);
+tslib_1.__exportStar(require("./types"), exports);
+const emptyShape = (_color) => '';
+exports.emptyShape = emptyShape;
